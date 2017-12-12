@@ -56,10 +56,11 @@
             <h3>Background</h3>
             <p>
               My name is Simba,and i am a self taught junior developer who seeks to create world class apps for the web. I have worked
-              in the web industry for several years and have accumulated knowledge whilst working in various roles such as web master,SEO developer
-              & data analyst. Recently i commited myself to fully learn web programming/software engineering as i seek to transition to a role whereby
-              i am part of a team that is building amazing things.I am very excited about this journey and hope to learn a lot as well as build great relationships
-              with like-minded individuals.
+              in the web industry for several years and have accumulated a wealth of knowledge whilst working in various
+              roles such as web master,SEO developer & data analyst. Recently i commited myself to fully learn web programming/software
+              engineering as i seek to transition to a role whereby i am part of a team that is building amazing things.I
+              am very excited about this journey and hope to learn a lot as well as build great relationships with like-minded
+              individuals.
             </p>
           </div>
 
@@ -96,7 +97,7 @@
             <i class="fa fa-terminal" aria-hidden="true"></i>
             <strong>Editors & Tools</strong>
             </h3>
-            <p>VSCode | Atom | Git Version Control | Linux / UNIX | Bash Scripting
+            <p>VSCode | Atom | Git Version Control | Linux / UNIX | Bash Scripting | Gulp | Heroku
             </p>
             <p>
               <i class="fa fa-database" aria-hidden="true"></i>
@@ -114,7 +115,7 @@
               <i class="fa fa-book" aria-hidden="true"></i>
               <strong> **Currently Learning</strong>
             </p>
-            <p>React | ES6/7 | Firebase | Mocha | Vue.js | SASS
+            <p>React | ES6 | Firebase | Mocha+Chai | Vue.js | Node.js | SASS | D3
             </p>
           </div>
         </div>
@@ -236,7 +237,7 @@
           </h2>
         </div>
 
-        <form class="w3-container w3-padding-xlarge" action="/redirect.html">
+        <form class="w3-container w3-padding-xlarge" action="mailto:simba@400nodes.com" method="post" enctype="text/plain">
           <label class="w3-label">Name</label>
           <input class="w3-input" type="text">
           <label class="w3-label">Email</label>
@@ -244,7 +245,7 @@
           <label class="w3-label">Message</label>
           <textarea class="w3-input w3-border" rows="7" style="resize:none" placeholder="Type message here or email me directly at: simba@400nodes.com"></textarea>
           <br>
-          <button type="submit" class="w3-button w3-black w3-hover-blue">Submit</button>
+<button type="submit" class="w3-button w3-black w3-hover-blue" onsubmit="return redirect()">Submit</button>
           <br>
           <br>
         </form>
@@ -268,6 +269,12 @@
       }
     }
   </script>
+<script type="text/javascript" language="javascript">
+  function redirect() {
+ window.location.replace("index.html");
+  return false;
+  }
+</script>
 </body>
 
 </html>
